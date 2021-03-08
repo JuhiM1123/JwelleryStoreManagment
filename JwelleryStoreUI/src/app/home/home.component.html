@@ -1,0 +1,49 @@
+<div class="card mt-4">
+    <h4 class="card-header">Welcome : {{user.roleName}} User {{user.firstName}} {{user.lastName}}</h4>
+    <div class="card-body">
+        <div *ngIf="loading" class="spinner-border spinner-border-sm"></div>
+        <form [formGroup]="priceCalculatorForm" (ngSubmit)="onSubmit()">
+            <div class="form-group">
+                <label for="weight">Gold (per gram) :</label>
+                <input required type="number" formControlName="goldPrice" class="form-control" [ngClass]="{ 'is-invalid': submitted && f.goldPrice.errors }"/>
+                <div *ngIf="submitted && f.goldPrice.errors" class="invalid-feedback">
+                    <div *ngIf="f.goldPrice.errors.required">Gold Prrice is required</div>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="weight">Weight :</label>
+                <input required type="number" formControlName="weight" class="form-control" [ngClass]="{ 'is-invalid': submitted && f.weight.errors }" />
+                <div *ngIf="submitted && f.weight.errors" class="invalid-feedback">
+                    <div *ngIf="f.weight.errors.required">Weight is required</div>
+                </div>
+            </div>
+            <div >
+                <label for="totalPrice">TotalPrice :</label>
+                <input disabled required type="number" class="form-control" value={{this.estimation.totalPrice}} />
+            </div>
+            <div *ngIf="user.roleName === 'Normal'">
+                <label for="discountPrice">Discount % :</label>
+                <input disabled required type="number" class="form-control" value={{this.estimation.discountPrice}} />
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-sm-2">
+                    <input type="submit" value="Calculate" class="btn btn-primary mt-5">
+                </div>
+                <div class="col-sm-2">
+                    <input type="button" value="Print to Screen" class="btn btn-primary mt-5">
+                </div>
+                <div class="col-sm-2">
+                    <input type="button" value="Print to File" class="btn btn-primary mt-5">
+                </div>
+                <div class="col-sm-2">
+                    <input type="button" value="Print to Paper" class="btn btn-primary mt-5">
+                </div>
+                <div class="col-sm-2">
+                    <input type="reset" value="Clear" class="btn btn-primary mt-5">
+                </div> 
+            </div>
+            <div *ngIf="error" class="alert alert-danger mt-3 mb-0">{{error}}</div>
+        </form>
+    </div>
+</div>
