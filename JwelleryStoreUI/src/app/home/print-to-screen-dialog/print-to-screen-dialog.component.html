@@ -1,0 +1,23 @@
+<div>
+    <label>{{data.user.firstName}} {{data.user.lastName}}({{data.user.roleName}} User ) </label>
+    <div>
+        <div class="spinner-border spinner-border-sm"></div>    
+        <div class="row">
+            <label>Gold (per gram) :  {{data.estimation.goldPrice}}</label>
+        </div>
+        <div class="row">
+            <label>Weight :  {{data.estimation.weight}}</label>
+        </div>
+        
+        <div class="row">   
+          <label>TotalPrice :  {{data.estimation.totalPrice}}</label>
+        </div>
+
+        <div *ngIf="data.user.roleName != 'Normal'" class="row">
+            <label>Discount :  {{data.estimation.discountPrice}}</label>
+        </div>   
+        <div>
+            <input type="button" value="Close" class="btn btn-primary mt-5" (click)="onClose();">
+        </div>    
+    </div>
+</div>

@@ -1,16 +1,17 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, OnDestroy } from '@angular/core';
 import { Router, ActivatedRoute } from '@angular/router';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { first } from 'rxjs/operators';
 
 import { AuthenticationService } from 'src/app/services/authenticationService';
+import { AESEncryptionDecryptionService } from 'src/app/services/aesEncryptionDecrptionService'
 
 @Component({
   selector: 'app-login',
   templateUrl: './login.component.html',
   styleUrls: [  './login.component.css']
 })
-export class LoginComponent implements OnInit {
+export class LoginComponent implements OnInit, OnDestroy {
   loginForm: FormGroup;
   loading = false;
   submitted = false;
@@ -21,8 +22,8 @@ export class LoginComponent implements OnInit {
       private formBuilder: FormBuilder,
       private route: ActivatedRoute,
       private router: Router,
-      private authenticationService: AuthenticationService
-     
+      private authenticationService: AuthenticationService,
+      private encryptionDecrptionService : AESEncryptionDecryptionService
   ) { 
             // redirect to home if already logged in
             if (this.authenticationService.currentUserValue) { 
@@ -51,9 +52,10 @@ export class LoginComponent implements OnInit {
       if (this.loginForm.invalid) {
           return;
       }
-
+      
+      let encryptedPassword = this.encryptionDecrptionService.encrypt(this.f.password.value);
       this.loading = true;
-      this.authenticationService.login(this.f.username.value, this.f.password.value)
+      this.authenticationService.login(this.f.username.value, encryptedPassword.result)
           .pipe(first())
           .subscribe(
               data => {
@@ -63,5 +65,9 @@ export class LoginComponent implements OnInit {
                   this.error = error;
                   this.loading = false;
               });
+  }
+
+  ngOnDestroy(): void {
+
   }
 }

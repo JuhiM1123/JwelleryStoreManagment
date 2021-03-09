@@ -5,16 +5,16 @@ import { delay, mergeMap, materialize, dematerialize } from 'rxjs/operators';
 
 import { User } from 'src/app/models/User';
 
-const users: User[] = [{ id: 1, username: 'normalUser', password: 'nu', firstName: 'Normal', lastName: 'User', roleName: "Normal", discountPrice:2.0 }];
+//const users: User[] = [{ id: 1, userName:'normalUser', password:"nu", firstName: 'Normal', lastName: 'User', roleName: "Normal", discountPrice:2.0 }];
 
-@Injectable()
+/*@Injectable()
 export class FakeBackendInterceptor implements HttpInterceptor {
     intercept(request: HttpRequest<any>, next: HttpHandler): Observable<HttpEvent<any>> {
         const { url, method, headers, body } = request;
 
         // wrap in delayed observable to simulate server api call
         return of(null)
-            .pipe(mergeMap(handleRoute))
+       //     .pipe(mergeMap(handleRoute))
             .pipe(materialize()) // call materialize and dematerialize to ensure delay even if an error is thrown (https://github.com/Reactive-Extensions/RxJS/issues/648)
             .pipe(delay(500))
             .pipe(dematerialize());
@@ -35,11 +35,11 @@ export class FakeBackendInterceptor implements HttpInterceptor {
 
         function authenticate() {
             const { username, password } = body;
-            const user = users.find(x => x.username === username && x.password === password);
-            if (!user) return error('Username or password is incorrect');
+            const user = users.find(x => x.userName === username && x.password === password);
+           
+           if (!this.user) return error('Username or password is incorrect');
             return ok({
                 id: user.id,
-                username: user.username,
                 firstName: user.firstName,
                 lastName: user.lastName,
                 roleName : user.roleName,
@@ -78,4 +78,4 @@ export let fakeBackendProvider = {
     provide: HTTP_INTERCEPTORS,
     useClass: FakeBackendInterceptor,
     multi: true
-};
+};*/
