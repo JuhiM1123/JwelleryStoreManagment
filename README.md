@@ -58,10 +58,10 @@ JwelleryStoreUI consumes the WEB Api made in JwelleryStoreServices in order to f
     - Open the folder  JwelleryStoreUI in VSCode
     - Open node package manager console and change the directory to the location of the project
     - Execute the following command
-	npm intsall
-	ng serve --o
+     	 - npm intsall
+    	 - ng serve --o
 	
-##Getting Started- How to test
+### Getting Started- How to test
  
   -  You can run the test cases present in the "JwelleryStore.UnitTest"
 
