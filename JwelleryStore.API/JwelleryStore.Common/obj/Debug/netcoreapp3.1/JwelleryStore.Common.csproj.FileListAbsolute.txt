@@ -1,0 +1,16 @@
+C:\Users\Juhi.Mehta\source\repos\JwelleryStore\JwelleryStore.Common\bin\Debug\netcoreapp3.1\JwelleryStore.Common.deps.json
+C:\Users\Juhi.Mehta\source\repos\JwelleryStore\JwelleryStore.Common\bin\Debug\netcoreapp3.1\JwelleryStore.Common.dll
+C:\Users\Juhi.Mehta\source\repos\JwelleryStore\JwelleryStore.Common\bin\Debug\netcoreapp3.1\JwelleryStore.Common.pdb
+C:\Users\Juhi.Mehta\source\repos\JwelleryStore\JwelleryStore.Common\obj\Debug\netcoreapp3.1\JwelleryStore.Common.AssemblyInfoInputs.cache
+C:\Users\Juhi.Mehta\source\repos\JwelleryStore\JwelleryStore.Common\obj\Debug\netcoreapp3.1\JwelleryStore.Common.AssemblyInfo.cs
+C:\Users\Juhi.Mehta\source\repos\JwelleryStore\JwelleryStore.Common\obj\Debug\netcoreapp3.1\JwelleryStore.Common.dll
+C:\Users\Juhi.Mehta\source\repos\JwelleryStore\JwelleryStore.Common\obj\Debug\netcoreapp3.1\JwelleryStore.Common.pdb
+D:\Study\.Net Core Application Demo\JwelleryStoreManagment\JwelleryStore.API\JwelleryStore.Common\bin\Debug\netcoreapp3.1\JwelleryStore.Common.deps.json
+D:\Study\.Net Core Application Demo\JwelleryStoreManagment\JwelleryStore.API\JwelleryStore.Common\bin\Debug\netcoreapp3.1\JwelleryStore.Common.dll
+D:\Study\.Net Core Application Demo\JwelleryStoreManagment\JwelleryStore.API\JwelleryStore.Common\bin\Debug\netcoreapp3.1\JwelleryStore.Common.pdb
+D:\Study\.Net Core Application Demo\JwelleryStoreManagment\JwelleryStore.API\JwelleryStore.Common\obj\Debug\netcoreapp3.1\JwelleryStore.Common.csprojAssemblyReference.cache
+D:\Study\.Net Core Application Demo\JwelleryStoreManagment\JwelleryStore.API\JwelleryStore.Common\obj\Debug\netcoreapp3.1\JwelleryStore.Common.AssemblyInfoInputs.cache
+D:\Study\.Net Core Application Demo\JwelleryStoreManagment\JwelleryStore.API\JwelleryStore.Common\obj\Debug\netcoreapp3.1\JwelleryStore.Common.AssemblyInfo.cs
+D:\Study\.Net Core Application Demo\JwelleryStoreManagment\JwelleryStore.API\JwelleryStore.Common\obj\Debug\netcoreapp3.1\JwelleryStore.Common.csproj.CoreCompileInputs.cache
+D:\Study\.Net Core Application Demo\JwelleryStoreManagment\JwelleryStore.API\JwelleryStore.Common\obj\Debug\netcoreapp3.1\JwelleryStore.Common.dll
+D:\Study\.Net Core Application Demo\JwelleryStoreManagment\JwelleryStore.API\JwelleryStore.Common\obj\Debug\netcoreapp3.1\JwelleryStore.Common.pdb

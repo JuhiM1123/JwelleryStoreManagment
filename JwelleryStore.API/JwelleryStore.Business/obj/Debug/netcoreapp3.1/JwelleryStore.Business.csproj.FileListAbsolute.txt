@@ -1,0 +1,27 @@
+C:\Users\Juhi.Mehta\source\repos\JwelleryStore\JwelleryStore.Business\bin\Debug\netcoreapp3.1\JwelleryStore.Business.deps.json
+C:\Users\Juhi.Mehta\source\repos\JwelleryStore\JwelleryStore.Business\bin\Debug\netcoreapp3.1\JwelleryStore.Business.dll
+C:\Users\Juhi.Mehta\source\repos\JwelleryStore\JwelleryStore.Business\bin\Debug\netcoreapp3.1\JwelleryStore.Business.pdb
+C:\Users\Juhi.Mehta\source\repos\JwelleryStore\JwelleryStore.Business\bin\Debug\netcoreapp3.1\JwelleryStore.Common.dll
+C:\Users\Juhi.Mehta\source\repos\JwelleryStore\JwelleryStore.Business\bin\Debug\netcoreapp3.1\JwelleryStore.DAL.dll
+C:\Users\Juhi.Mehta\source\repos\JwelleryStore\JwelleryStore.Business\bin\Debug\netcoreapp3.1\JwelleryStore.Common.pdb
+C:\Users\Juhi.Mehta\source\repos\JwelleryStore\JwelleryStore.Business\bin\Debug\netcoreapp3.1\JwelleryStore.DAL.pdb
+C:\Users\Juhi.Mehta\source\repos\JwelleryStore\JwelleryStore.Business\obj\Debug\netcoreapp3.1\JwelleryStore.Business.csprojAssemblyReference.cache
+C:\Users\Juhi.Mehta\source\repos\JwelleryStore\JwelleryStore.Business\obj\Debug\netcoreapp3.1\JwelleryStore.Business.AssemblyInfoInputs.cache
+C:\Users\Juhi.Mehta\source\repos\JwelleryStore\JwelleryStore.Business\obj\Debug\netcoreapp3.1\JwelleryStore.Business.AssemblyInfo.cs
+C:\Users\Juhi.Mehta\source\repos\JwelleryStore\JwelleryStore.Business\obj\Debug\netcoreapp3.1\JwelleryStore.Business.csproj.CopyComplete
+C:\Users\Juhi.Mehta\source\repos\JwelleryStore\JwelleryStore.Business\obj\Debug\netcoreapp3.1\JwelleryStore.Business.dll
+C:\Users\Juhi.Mehta\source\repos\JwelleryStore\JwelleryStore.Business\obj\Debug\netcoreapp3.1\JwelleryStore.Business.pdb
+D:\Study\.Net Core Application Demo\JwelleryStoreManagment\JwelleryStore.API\JwelleryStore.Business\bin\Debug\netcoreapp3.1\JwelleryStore.Business.deps.json
+D:\Study\.Net Core Application Demo\JwelleryStoreManagment\JwelleryStore.API\JwelleryStore.Business\bin\Debug\netcoreapp3.1\JwelleryStore.Business.dll
+D:\Study\.Net Core Application Demo\JwelleryStoreManagment\JwelleryStore.API\JwelleryStore.Business\bin\Debug\netcoreapp3.1\JwelleryStore.Business.pdb
+D:\Study\.Net Core Application Demo\JwelleryStoreManagment\JwelleryStore.API\JwelleryStore.Business\bin\Debug\netcoreapp3.1\JwelleryStore.Common.dll
+D:\Study\.Net Core Application Demo\JwelleryStoreManagment\JwelleryStore.API\JwelleryStore.Business\bin\Debug\netcoreapp3.1\JwelleryStore.DAL.dll
+D:\Study\.Net Core Application Demo\JwelleryStoreManagment\JwelleryStore.API\JwelleryStore.Business\bin\Debug\netcoreapp3.1\JwelleryStore.Common.pdb
+D:\Study\.Net Core Application Demo\JwelleryStoreManagment\JwelleryStore.API\JwelleryStore.Business\bin\Debug\netcoreapp3.1\JwelleryStore.DAL.pdb
+D:\Study\.Net Core Application Demo\JwelleryStoreManagment\JwelleryStore.API\JwelleryStore.Business\obj\Debug\netcoreapp3.1\JwelleryStore.Business.csprojAssemblyReference.cache
+D:\Study\.Net Core Application Demo\JwelleryStoreManagment\JwelleryStore.API\JwelleryStore.Business\obj\Debug\netcoreapp3.1\JwelleryStore.Business.AssemblyInfoInputs.cache
+D:\Study\.Net Core Application Demo\JwelleryStoreManagment\JwelleryStore.API\JwelleryStore.Business\obj\Debug\netcoreapp3.1\JwelleryStore.Business.AssemblyInfo.cs
+D:\Study\.Net Core Application Demo\JwelleryStoreManagment\JwelleryStore.API\JwelleryStore.Business\obj\Debug\netcoreapp3.1\JwelleryStore.Business.csproj.CoreCompileInputs.cache
+D:\Study\.Net Core Application Demo\JwelleryStoreManagment\JwelleryStore.API\JwelleryStore.Business\obj\Debug\netcoreapp3.1\JwelleryStore.Business.csproj.CopyComplete
+D:\Study\.Net Core Application Demo\JwelleryStoreManagment\JwelleryStore.API\JwelleryStore.Business\obj\Debug\netcoreapp3.1\JwelleryStore.Business.dll
+D:\Study\.Net Core Application Demo\JwelleryStoreManagment\JwelleryStore.API\JwelleryStore.Business\obj\Debug\netcoreapp3.1\JwelleryStore.Business.pdb

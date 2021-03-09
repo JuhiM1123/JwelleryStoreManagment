@@ -1,0 +1,397 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Study\\.Net Core Application Demo\\JwelleryStoreManagment\\JwelleryStore.API\\JwelleryStore.UnitTest\\JwelleryStore.UnitTest.csproj": {}
+  },
+  "projects": {
+    "D:\\Study\\.Net Core Application Demo\\JwelleryStoreManagment\\JwelleryStore.API\\JwelleryStore.Business\\JwelleryStore.Business.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Study\\.Net Core Application Demo\\JwelleryStoreManagment\\JwelleryStore.API\\JwelleryStore.Business\\JwelleryStore.Business.csproj",
+        "projectName": "JwelleryStore.Business",
+        "projectPath": "D:\\Study\\.Net Core Application Demo\\JwelleryStoreManagment\\JwelleryStore.API\\JwelleryStore.Business\\JwelleryStore.Business.csproj",
+        "packagesPath": "C:\\Users\\Acer\\.nuget\\packages\\",
+        "outputPath": "D:\\Study\\.Net Core Application Demo\\JwelleryStoreManagment\\JwelleryStore.API\\JwelleryStore.Business\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Acer\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "D:\\Study\\.Net Core Application Demo\\JwelleryStoreManagment\\JwelleryStore.API\\JwelleryStore.Common\\JwelleryStore.Common.csproj": {
+                "projectPath": "D:\\Study\\.Net Core Application Demo\\JwelleryStoreManagment\\JwelleryStore.API\\JwelleryStore.Common\\JwelleryStore.Common.csproj"
+              },
+              "D:\\Study\\.Net Core Application Demo\\JwelleryStoreManagment\\JwelleryStore.API\\JwelleryStore.DAL\\JwelleryStore.DAL.csproj": {
+                "projectPath": "D:\\Study\\.Net Core Application Demo\\JwelleryStoreManagment\\JwelleryStore.API\\JwelleryStore.DAL\\JwelleryStore.DAL.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.8.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Study\\.Net Core Application Demo\\JwelleryStoreManagment\\JwelleryStore.API\\JwelleryStore.Common\\JwelleryStore.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Study\\.Net Core Application Demo\\JwelleryStoreManagment\\JwelleryStore.API\\JwelleryStore.Common\\JwelleryStore.Common.csproj",
+        "projectName": "JwelleryStore.Common",
+        "projectPath": "D:\\Study\\.Net Core Application Demo\\JwelleryStoreManagment\\JwelleryStore.API\\JwelleryStore.Common\\JwelleryStore.Common.csproj",
+        "packagesPath": "C:\\Users\\Acer\\.nuget\\packages\\",
+        "outputPath": "D:\\Study\\.Net Core Application Demo\\JwelleryStoreManagment\\JwelleryStore.API\\JwelleryStore.Common\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Acer\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Study\\.Net Core Application Demo\\JwelleryStoreManagment\\JwelleryStore.API\\JwelleryStore.DAL\\JwelleryStore.DAL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Study\\.Net Core Application Demo\\JwelleryStoreManagment\\JwelleryStore.API\\JwelleryStore.DAL\\JwelleryStore.DAL.csproj",
+        "projectName": "JwelleryStore.DAL",
+        "projectPath": "D:\\Study\\.Net Core Application Demo\\JwelleryStoreManagment\\JwelleryStore.API\\JwelleryStore.DAL\\JwelleryStore.DAL.csproj",
+        "packagesPath": "C:\\Users\\Acer\\.nuget\\packages\\",
+        "outputPath": "D:\\Study\\.Net Core Application Demo\\JwelleryStoreManagment\\JwelleryStore.API\\JwelleryStore.DAL\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Acer\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "D:\\Study\\.Net Core Application Demo\\JwelleryStoreManagment\\JwelleryStore.API\\JwelleryStore.Common\\JwelleryStore.Common.csproj": {
+                "projectPath": "D:\\Study\\.Net Core Application Demo\\JwelleryStoreManagment\\JwelleryStore.API\\JwelleryStore.Common\\JwelleryStore.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Study\\.Net Core Application Demo\\JwelleryStoreManagment\\JwelleryStore.API\\JwelleryStore.UnitTest\\JwelleryStore.UnitTest.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Study\\.Net Core Application Demo\\JwelleryStoreManagment\\JwelleryStore.API\\JwelleryStore.UnitTest\\JwelleryStore.UnitTest.csproj",
+        "projectName": "JwelleryStore.UnitTest",
+        "projectPath": "D:\\Study\\.Net Core Application Demo\\JwelleryStoreManagment\\JwelleryStore.API\\JwelleryStore.UnitTest\\JwelleryStore.UnitTest.csproj",
+        "packagesPath": "C:\\Users\\Acer\\.nuget\\packages\\",
+        "outputPath": "D:\\Study\\.Net Core Application Demo\\JwelleryStoreManagment\\JwelleryStore.API\\JwelleryStore.UnitTest\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Acer\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "D:\\Study\\.Net Core Application Demo\\JwelleryStoreManagment\\JwelleryStore.API\\JwelleryStore.Business\\JwelleryStore.Business.csproj": {
+                "projectPath": "D:\\Study\\.Net Core Application Demo\\JwelleryStoreManagment\\JwelleryStore.API\\JwelleryStore.Business\\JwelleryStore.Business.csproj"
+              },
+              "D:\\Study\\.Net Core Application Demo\\JwelleryStoreManagment\\JwelleryStore.API\\JwelleryStore.Common\\JwelleryStore.Common.csproj": {
+                "projectPath": "D:\\Study\\.Net Core Application Demo\\JwelleryStoreManagment\\JwelleryStore.API\\JwelleryStore.Common\\JwelleryStore.Common.csproj"
+              },
+              "D:\\Study\\.Net Core Application Demo\\JwelleryStoreManagment\\JwelleryStore.API\\JwelleryStoreServices\\JwelleryStoreServices.csproj": {
+                "projectPath": "D:\\Study\\.Net Core Application Demo\\JwelleryStoreManagment\\JwelleryStore.API\\JwelleryStoreServices\\JwelleryStoreServices.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "MSTest.TestAdapter": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
+            "MSTest.TestFramework": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[3.1.12, )"
+            },
+            "Microsoft.AspNetCore.Hosting": {
+              "target": "Package",
+              "version": "[2.2.7, )"
+            },
+            "Microsoft.AspNetCore.TestHost": {
+              "target": "Package",
+              "version": "[3.1.12, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.2.0, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.8.0, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[1.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Study\\.Net Core Application Demo\\JwelleryStoreManagment\\JwelleryStore.API\\JwelleryStoreServices\\JwelleryStoreServices.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Study\\.Net Core Application Demo\\JwelleryStoreManagment\\JwelleryStore.API\\JwelleryStoreServices\\JwelleryStoreServices.csproj",
+        "projectName": "JwelleryStoreServices",
+        "projectPath": "D:\\Study\\.Net Core Application Demo\\JwelleryStoreManagment\\JwelleryStore.API\\JwelleryStoreServices\\JwelleryStoreServices.csproj",
+        "packagesPath": "C:\\Users\\Acer\\.nuget\\packages\\",
+        "outputPath": "D:\\Study\\.Net Core Application Demo\\JwelleryStoreManagment\\JwelleryStore.API\\JwelleryStoreServices\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Acer\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "D:\\Study\\.Net Core Application Demo\\JwelleryStoreManagment\\JwelleryStore.API\\JwelleryStore.Business\\JwelleryStore.Business.csproj": {
+                "projectPath": "D:\\Study\\.Net Core Application Demo\\JwelleryStoreManagment\\JwelleryStore.API\\JwelleryStore.Business\\JwelleryStore.Business.csproj"
+              },
+              "D:\\Study\\.Net Core Application Demo\\JwelleryStoreManagment\\JwelleryStore.API\\JwelleryStore.Common\\JwelleryStore.Common.csproj": {
+                "projectPath": "D:\\Study\\.Net Core Application Demo\\JwelleryStoreManagment\\JwelleryStore.API\\JwelleryStore.Common\\JwelleryStore.Common.csproj"
+              },
+              "D:\\Study\\.Net Core Application Demo\\JwelleryStoreManagment\\JwelleryStore.API\\JwelleryStore.DAL\\JwelleryStore.DAL.csproj": {
+                "projectPath": "D:\\Study\\.Net Core Application Demo\\JwelleryStoreManagment\\JwelleryStore.API\\JwelleryStore.DAL\\JwelleryStore.DAL.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[3.1.12, )"
+            },
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[3.1.12, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.3, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[3.1.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
